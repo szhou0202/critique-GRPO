@@ -1,0 +1,6 @@
+*.whl*
+*.log
+*egg-info*
+/verl/build/*
+verl/examples/grpo_trainer/run_open_r1_math4k-qwen3-8b-base-critique_simple_gt_online.sh
+/wandb/*

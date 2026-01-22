@@ -24,6 +24,14 @@ dependencies:
   - xz=5.6.4=h5eee18b_1
   - zlib=1.2.13=h5eee18b_1
   - pip:
+      - tokenizers==0.21.1
+      - torch==2.6.0
+      - torchaudio==2.6.0
+      - torchdata==0.11.0
+      - torchvision==0.21.0
+      - tqdm==4.67.1
+      - transformers==4.51.3
+      - triton==3.2.0
       - accelerate==1.7.0
       - aiohappyeyeballs==2.6.1
       - aiohttp==3.11.18
@@ -194,14 +202,6 @@ dependencies:
       - sympy==1.13.1
       - tensordict==0.6.2
       - tiktoken==0.9.0
-      - tokenizers==0.21.1
-      - torch==2.6.0
-      - torchaudio==2.6.0
-      - torchdata==0.11.0
-      - torchvision==0.21.0
-      - tqdm==4.67.1
-      - transformers==4.51.3
-      - triton==3.2.0
       - typer==0.15.4
       - typing-extensions==4.12.2
       - typing-inspection==0.4.0
@@ -221,4 +221,3 @@ dependencies:
       - xxhash==3.5.0
       - yarl==1.20.0
       - zipp==3.21.0
-prefix: /mnt/workspace/xyzhang/miniconda3/envs/verl_qwen3
