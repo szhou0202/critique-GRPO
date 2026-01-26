@@ -43,3 +43,7 @@ def test_flash_attn_cross_entropy():
     groundtruth = logprobs_from_logits_naive(logits.float(), labels)
 
     torch.testing.assert_close(output, groundtruth)
+
+if __name__=="__main__":
+    test_flash_attn_cross_entropy()
+    print("PASSED")

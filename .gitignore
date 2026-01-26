@@ -2,5 +2,11 @@
 *.log
 *egg-info*
 /verl/build/*
-verl/examples/grpo_trainer/run_open_r1_math4k-qwen3-8b-base-critique_simple_gt_online.sh
+verl/examples/run_copy.sh
 /wandb/*
+/verl_qwen3/*
+.env
+*.pyc*
+*__pycache__*
+Qwen3-8B
+outputs/

@@ -80,6 +80,7 @@ def test_lr_scheduler():
         lr_lst.append(constant_lr.get_last_lr()[0])
         constant_lr.step()
 
+    print(lr_lst)
     torch.testing.assert_close(lr_lst, [0.0, 0.0005, 0.001, 0.001, 0.001])
 
     from verl.utils.torch_functional import get_cosine_schedule_with_warmup
@@ -92,5 +93,5 @@ def test_lr_scheduler():
     for _ in range(5):
         lr_lst.append(cosine_lr.get_last_lr()[0])
         cosine_lr.step()
-
+    print(lr_lst)
     torch.testing.assert_close(lr_lst, [0.0, 0.0005, 0.001, 0.0007750000000000002, 0.0003250000000000002])

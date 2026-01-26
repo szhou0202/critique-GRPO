@@ -1,0 +1,4 @@
+flashinfer_python==0.5.3
+torch==2.9.1
+torchaudio==2.9.1
+xgrammar==0.1.27
